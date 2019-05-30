@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PrimedPoll | Forgot Password</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Assets/css/ec_style.css">
+    <link rel="stylesheet" href="../Assets/styles/complete-registration.css">
+
+</head>
+
+<body class="">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="w-100 full-body row">
+                <div class="complete-details col-12 col-md-5 border-right">
+                    <div class="form-con col-10 ml-3">
+                        <h5 class="text-center mb-5">Just a few more details</h5>
+                        <form class="comp-form" method="post" action="#" id="complete_reg">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <div>
+                                    <input type="text" name="firstName" class="form-control" id="firstName"
+                                        placeholder="First Name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName"> Last Name</label>
+                                <div>
+                                    <input type="text" name="lastName" class="form-control" id="lastName"
+                                        placeholder="Last Name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber"> Phone Number:</label>
+                                <div>
+                                    <input type="tel" name="phone" class="form-control" id="phoneNumber" value="+234 "
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="dob"> DOB:</label>
+                                <div>
+                                    <input type="date" name="bday" class="form-control datepicker" id="dob"
+                                        placeholder="Date of Birth" required>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 complete-interests">
+                    <div class="interests-box">
+                        <h4 class="ec_text-brand">Interests</h4>
+                        <div class="interests-con scroller border col-10 mx-auto">
+                            <div class="row" id="interest">
+
+                            </div>
+
+                                <h6 class="text-center mt-3 ec_text-brand choose_more">
+                                    Choose 5 or more to proceed
+                                </h6>
+                        </div>
+                        <div>
+                                <button id="proceed" class="btn  col-4 complete_submit text-center" type="submit"><p style="margin: 0;   padding: 0">Proceed <span style="margin-bottom: -40px;">&#10157;</span></p>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../Assets/js/jquery.min.js"></script>
+        <script src="main.js/axios.js"></script>
+        <script src="main.js/complete.js"></script>
+</body>
+
+</html>

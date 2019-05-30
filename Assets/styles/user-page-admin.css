@@ -1,0 +1,18 @@
+.user-page-interests{
+	border-radius: 4px;
+}
+.user-page-interests div{
+	border-radius: 4px;
+}
+/*.user-poll-stats{
+	min-height: 10vh;
+}*/
+/*.asked-poll{
+	vertical-align: middle;
+}
+.answered-poll{
+	vertical-align: middle;
+}*/
+.bio-field .list-group-item{
+	border:none;
+}

@@ -1,0 +1,52 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.full-body{
+    min-height: 100vh;
+}
+.form-con{
+    margin-top: 15vh;
+}
+.complete-details{
+    min-height: 100vh;
+    background-color: #f58731;
+    color:white;
+}
+.comp-form input{
+    border-radius: 5px;
+}
+.interests-con{
+    min-height: 60vh;
+    max-height: 60vh;
+    border-radius: 4px;
+}
+.interests-box{
+    margin-top: 20vh;
+}
+.interests-box h4{
+    margin-left: 10vh;
+}
+.interests-box a:hover{
+    text-decoration: none;
+}
+.interest{
+    background-color: #f58731;
+}
+.interest-words{
+    color:white;
+    text-transform: capitalize;
+}
+.interest-words:hover{
+    cursor: pointer;
+}
+i{
+    font-size: 12px;
+    margin-right:2%;
+}
+#proceed{
+    display: none;
+    margin-top:2%;
+    background-color: #f58731;
+    color:white;
+    margin-left: 35%;
+}
